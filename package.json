@@ -1,0 +1,50 @@
+{
+  "name": "aframe-effects",
+  "version": "0.1.0",
+  "description": "Post processing for A-Frame",
+  "module": "./dist/aframe-effects.js",
+  "scripts": {
+    "dist": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamsungInternet/aframe-effects.git"
+  },
+  "keywords": [
+    "webgl",
+    "grading",
+    "postprocessing",
+    "effect",
+    "bloom",
+    "outline",
+    "sobel",
+    "freichen",
+    "edge",
+    "colors",
+    "ssao",
+    "ambient",
+    "depth",
+    "occlusion",
+    "fxaa",
+    "antialiasing",
+    "godrays",
+    "sunshafts",
+    "three",
+    "threejs",
+    "uber",
+    "shader",
+    "grain",
+    "film"
+  ],
+  "author": "Yannis Gravezas <wizgrav@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SamsungInternet/three-effects/issues"
+  },
+  "homepage": "https://github.com/SamsungInternet/three-effects#readme",
+  "devDependencies": {
+    "three-effects": "SamsungInternet/three-effects#master",
+    "rollup": "^1.23.1",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  }
+}
